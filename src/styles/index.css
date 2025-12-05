@@ -9,3 +9,37 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+* {
+    color: #FAF7DC;
+}
+
+.nav-link {
+    color: #FAF7DC;
+}
+
+.nav-link.active {
+    background-color: #49D59C !important;
+    font-weight: bold;
+    color: #FAF7DC;
+}
+
+.logo {
+    width: 25%;
+}
+
+.marginContainer {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+@media only screen and (max-width: 800px) {
+    .logo {
+        width: 100%;
+    }
+
+    .marginContainer {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+}
